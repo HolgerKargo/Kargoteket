@@ -1,0 +1,30 @@
+/*----NavigationBar----*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-nav li
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: black
+}
+.navbar
+{
+    background-color: transparent
+}
+.navbar-toggler
+{
+    border:none!important
+}
+.nav-link
+{
+    color: brown!important;
+    font-weight: 600;
+    font-size: 16px;
+}
