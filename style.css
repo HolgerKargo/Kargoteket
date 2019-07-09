@@ -34,3 +34,10 @@ li a:hover {
 .active{
   background-color: burlywood;
 }
+
+
+/* Background Picture */
+
+body {
+  background-image: url("img/Paper.jpg");
+}
