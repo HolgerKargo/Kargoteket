@@ -5,20 +5,25 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: transparent;
-  }
+}
   
-  li {
+li {
     float: right;
-  }
+}
   
-  li a {
+li a {
     display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  li a:hover {
-    background-color: teal;
-  }
+li a:hover {
+    background-color: burlywood;
+}
+
+.active{
+  background-color: burlywood;
+}
+
