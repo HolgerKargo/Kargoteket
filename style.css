@@ -24,7 +24,6 @@ li a {
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
-    
 }
   
 li a:hover {
@@ -32,12 +31,15 @@ li a:hover {
 }
 
 .active{
-  background-color: burlywood;
+    background-color: burlywood;
 }
 
 
 /* Background Picture */
 
 body {
-  background-image: url("img/Paper.jpg");
+    background-image: url("img/Paper.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
