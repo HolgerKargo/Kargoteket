@@ -45,12 +45,14 @@ li a:hover {
   height: 150px;
   width: 150px;
   border: 1px solid black;
-  margin: 10px;
+  margin: 15px;
   border-radius: 50%;
   text-align: center;
   line-height: 150px;
   font-family: 'Courier New', Courier, monospace;
 }
+
+
 
 
 
