@@ -8,11 +8,11 @@ ul {
     overflow: hidden;
     background-color: transparent;
 }
-  
+
 li {
     float: right;
 }
-  
+
 li a {
     display: block;
     border-radius: 35px;
@@ -25,7 +25,7 @@ li a {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
 }
-  
+
 li a:hover {
     background-color: burlywood;
 }
@@ -33,6 +33,25 @@ li a:hover {
 .active{
     background-color: burlywood;
 }
+
+/* Circles */
+
+.circles {
+  float: left;
+  font-size: 30px;
+  margin-top: 400;
+}
+.eachCircle {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 150px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 
 
 /* Background Picture */
