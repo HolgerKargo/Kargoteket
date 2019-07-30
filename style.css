@@ -59,8 +59,8 @@ li a:hover {
 /* Background Picture */
 
 body {
-    background-image: url("img/Paper.jpg");
+    background-image: url("img/background.jpg");
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
+    /* position: relative; */
 }
