@@ -38,28 +38,28 @@
 /* Circles */
 
 .circles {
-  width: 100%;
-  font-size: 30px;
-  margin-top: 250px;
-  padding-left: 10%;
-  padding-right: 5%;
+  width: auto;
+  font-size: 22px;
+  margin-top: 20%;
   overflow: hidden;
+
+
 }
 .eachCircle {
   float: left;
-  width: 225px;
-  height: 225px;
-  border: 1px solid black;
+  width: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  line-height: 1.5em;
+  height: 3em;
+  overflow: hidden;
+  border: 2px solid black;
+  overflow: hidden;
   border-radius: 50%;
   text-align: center;
-  line-height: 225px;
   font-family: 'Courier New', Courier, monospace;
-  list-style-type: none;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-
+  font-weight: bold;
 }
-
 
 /* Kontaktmenu */
 
