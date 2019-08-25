@@ -4,8 +4,19 @@ Dette er skelettet til Dorthe Kargos hjemmeside; Kargoteket.
 
 -
 
-Navigationsbaren er lavet ud fra denne video: https://www.youtube.com/watch?v=99vHH_6F0Ko.
+Se videon af Dev Ed.
 
 -
+
+To-do liste:
+
+*	Se på farver
+
+* 	Burgermenu
+
+*	Sticky navbar
+
+*	Lav undersiderne
+
 
 _Lavet af Jakob Kargo Mortensen og Holger Kargo Mortensen._
