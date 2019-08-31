@@ -14,7 +14,7 @@ To-do liste:
 
 * 	Burgermenu
 
-*	Sticky navbar
+*	Sticky navbar - Done!
 
 *	Lav undersiderne
 
