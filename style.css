@@ -228,6 +228,45 @@ header {
 }
 
 
+
+
+
+/* What.html */
+
+.what-content {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+    height: 75vh;
+}
+
+.quote-headline {
+    height: 10vh;
+}
+
+.costumer-quotes {
+    margin-top: 5vh;
+    display: flex;
+}
+
+.quote-1 {
+    flex: 1;
+    margin: 20px;
+    background-color: #F9F9F9;
+    padding: 20px;
+}
+
+.quote-2 {
+    flex: 1;
+    margin: 20px;
+    background-color: #F9F9F9;
+    padding: 20px;
+}
+
+
+
+
 /* Responsive layout */
 
 @media screen and (max-width: 1200px) {
@@ -286,4 +325,15 @@ header {
         text-align: center;
         display: block;
     }
+
+    /* What.html responsive */
+
+    .quote-headline {
+        text-align: center;
+    }
+
+    .costumer-quotes {
+        flex-direction: column;
+    }
+
 }
