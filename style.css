@@ -133,6 +133,7 @@ header {
     margin: auto;
     min-height: 45vh;
     align-items: center;
+    background-color: aliceblue;
 }
 
 .intro-text {
@@ -228,25 +229,80 @@ header {
 }
 
 
+/* how.html */
+
+.content-section {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 6vh;
+    min-height: 60vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    padding: 10px;
+    margin-top: 2vh;
+    background-color: #F9F9F9;
+}
+
+.text h1 {
+    font-size: 30px;
+}
+
+.text p {
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+
+/* how.html boxes */
+
+.boxes {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    min-height: 40vh;
+    align-items: center;
+}
+
+.box-container {
+    flex: 1;
+}
+
+.box-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: rgb(131, 153, 228);
+    height: 35vh;
+    width: 35vh;
+    margin: auto;
+    cursor: pointer;
+    font-size: 17px;
+}
 
 
 
-/* What.html */
+
+/* what.html */
 
 .what-content {
     display: flex;
     width: 80%;
     margin: auto;
     margin-top: 10vh;
-    height: 75vh;
+    min-height: 60vh;
 }
 
 .quote-headline {
     height: 10vh;
+    margin-top: 3vh;
 }
 
 .costumer-quotes {
-    margin-top: 5vh;
+    margin-top: px;
     display: flex;
 }
 
