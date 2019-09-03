@@ -259,23 +259,65 @@ header {
     width: 80%;
     margin: auto;
     margin-top: 6vh;
-    min-height: 60vh;
+    min-height: 40vh;
     align-items: center;
     flex-direction: column;
 }
 
 .text {
-    padding: 10px;
-    margin-top: 2vh;
+    padding: 30px;
+    flex: 1;
 }
 
 .text h1 {
     font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .text p {
+    font-size: 18px;
+    text-align: center;
     line-height: 22px;
-    margin-top: 15px;
+}
+
+/* how.html circle-image */
+
+.content-section-w-image {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 6vh;
+    min-height: 40vh;
+    align-items: center;
+}
+
+.text2 {
+    padding: 30px;
+    flex: 1;
+    background-color: #F9F9F9;
+}
+
+.text2 p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.circle-image-container {
+    flex: 1;
+}
+
+.circle-image {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: lightcyan;
+    height: 40vh;
+    width: 40vh;
+    margin: auto;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 17px;
 }
 
 
@@ -285,16 +327,19 @@ header {
     display: flex;
     width: 80%;
     margin: auto;
-    min-height: 40vh;
-    align-items: center;
+    margin-top: 6vh;
+    min-height: 180vh;
+    flex-direction: column;
     background-color: aquamarine;
 }
 
 .box-container {
     flex: 1;
+    display: flex;
 }
 
 .box-1 {
+    fle
     justify-content: center;
     align-items: center;
     display: flex;
