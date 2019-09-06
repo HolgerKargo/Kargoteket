@@ -328,30 +328,29 @@ header {
     width: 80%;
     margin: auto;
     margin-top: 6vh;
-    min-height: 180vh;
+    margin-bottom: 6vh;
+    min-height: 120vh;
     flex-direction: column;
-    background-color: aquamarine;
 }
 
-.box-container {
+.box-container-1, .box-container-3 {
     flex: 1;
     display: flex;
+    background-color:#F9F9F9;
+    margin-top: 50px;
+    width: 60%;
+    padding: 30px;
 }
 
-.box-1 {
-    fle
-    justify-content: center;
-    align-items: center;
+.box-container-2 {
+    flex: 1;
     display: flex;
-    background: lightcyan;
-    height: 40vh;
-    width: 40vh;
-    margin: auto;
-    cursor: pointer;
-    font-size: 17px;
+    margin-left: 40%;
+    margin-top: 50px;
+    width: 60%;
+    background-color: #F9F9F9;
+    padding: 30px;
 }
-
-
 
 
 /* what.html */
@@ -450,6 +449,29 @@ header {
         display: block;
     }
 
+
+    /* how.html responsive */
+
+    .content-section-w-image {
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+    
+    .circle-image-container {
+        margin-top: 6vh;
+        margin-bottom: 0;
+    }
+
+    .box-container-1, .box-container-3 {
+        width: 100%;
+        margin-top: 6vh;
+    }
+
+    .box-container-2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
     /* What.html responsive */
 
     .quote-headline {
@@ -459,5 +481,4 @@ header {
     .costumer-quotes {
         flex-direction: column;
     }
-
 }
