@@ -311,13 +311,24 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
-    background: lightcyan;
-    height: 40vh;
-    width: 40vh;
+    height: 45vh;
+    width: 45vh;
     margin: auto;
     border-radius: 100%;
     cursor: pointer;
     font-size: 17px;
+    background-color: aqua;
+}
+
+img {
+    height: 43vh;
+    width: 43vh;
+    border-radius: 100%;
+}
+
+img:hover {
+    height: 45vh;
+    width: 45vh;
 }
 
 
@@ -359,7 +370,7 @@ header {
     display: flex;
     width: 80%;
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 15vh;
     min-height: 60vh;
 }
 
@@ -386,7 +397,6 @@ header {
     background-color: #F9F9F9;
     padding: 20px;
 }
-
 
 
 
