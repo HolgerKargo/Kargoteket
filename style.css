@@ -122,9 +122,10 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
+  margin-left: -20vh;
   min-width: 77px;
   z-index: 1;
-  text-align: center;
+  text-align: right;
   background-color: #F9F9F9;
 }
 
@@ -317,18 +318,13 @@ header {
     border-radius: 100%;
     cursor: pointer;
     font-size: 17px;
-    background-color: aqua;
+    background-color: #F9F9F9;
 }
 
 img {
-    height: 43vh;
-    width: 43vh;
-    border-radius: 100%;
-}
-
-img:hover {
     height: 45vh;
     width: 45vh;
+    border-radius: 100%;
 }
 
 
@@ -380,7 +376,7 @@ img:hover {
 }
 
 .costumer-quotes {
-    margin-top: px;
+    margin-top: 15px;
     display: flex;
 }
 
@@ -398,6 +394,55 @@ img:hover {
     padding: 20px;
 }
 
+
+/* who.html */
+
+.contact-screen {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 8vh;
+    min-height: 65vh;
+}
+
+.contact-text {
+    flex: 1;
+    padding: 20px;
+    margin: auto;
+}
+
+.contact-text h1  {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.contact-text p {
+    text-align: right;
+    line-height: 25px;
+}
+
+.profilepic-container {
+    flex: 1;
+    margin: auto;
+    align-content: center;
+}
+
+.profilepic-image {
+    display: flex;
+    height: 45vh;
+    width: 45vh;
+    margin: auto;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+img {
+    height: 45vh;
+    width: 45vh;
+    border-radius: 100%;
+}
 
 
 /* Responsive layout */
@@ -482,7 +527,7 @@ img:hover {
         margin-left: 0;
     }
 
-    /* What.html responsive */
+    /* what.html responsive */
 
     .quote-headline {
         text-align: center;
@@ -491,4 +536,20 @@ img:hover {
     .costumer-quotes {
         flex-direction: column;
     }
+
+    /* who.html responsive */
+
+    .contact-screen {
+        flex-direction: column;
+    }
+
+    .contact-text p {
+        text-align: center;
+    }
+
+    .profilepic-image {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
 }
