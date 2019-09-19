@@ -141,7 +141,7 @@ header {
 
 /* Hover */
 
-.logo-link:hover, .contact-link:hover, .nav-link:hover, .nav-toggled-link:hover, .dropdown-content a:hover {
+.logo-link:hover, .contact-link:hover, .nav-link:hover, .nav-toggled-link:hover, .dropdown-content a:hover, a:hover {
     text-decoration: underline;
 }
 
@@ -194,8 +194,6 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
-    /*border-style: solid;
-    border-width: 1px;*/
     background: rgb(131, 153, 228);
     opacity: 0.7;
     height: 35vh;
@@ -204,6 +202,9 @@ header {
     border-radius: 100%;
     cursor: pointer;
     font-size: 17px;
+}
+a {
+  color: black; text-decoration: none;
 }
 
 .circle-2 {
@@ -251,7 +252,6 @@ header {
 .circle-1:hover, .circle-2:hover, .circle-3:hover, .circle-4:hover {
     opacity: 1;
 }
-
 
 /* how.html */
 
@@ -511,7 +511,7 @@ img {
         flex-direction: column-reverse;
         margin-top: 0;
     }
-    
+
     .circle-image-container {
         margin-top: 6vh;
         margin-bottom: 0;
