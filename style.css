@@ -35,10 +35,6 @@ p {
   width: 100%;
 }
 
-.sticky + .content {
-  padding-top: 60px;
-}
-
 header {
     display: flex;
     width: 90%;
@@ -250,7 +246,7 @@ a {
     text-align: center;
 }
 
-.circle-4 {
+/* .circle-4 {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -263,9 +259,9 @@ a {
     cursor: pointer;
     font-size: 17px;
     text-align: center;
-}
+} */
 
-.circle-1:hover, .circle-2:hover, .circle-3:hover, .circle-4:hover {
+.circle-1:hover, .circle-2:hover, .circle-3:hover /*.circle-4:hover*/ {
     opacity: 1;
 }
 
