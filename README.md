@@ -10,13 +10,17 @@ Se videon af Dev Ed.
 
 To-do liste:
 
-*	Se på farver
-
 * 	Burgermenu
 
-*	Sticky navbar - Done!
+*   Responsive (vigtigt!)
 
-*	Lav undersiderne
+*   LinkedIn billede
+
+*   Burgermenu: automatisk lukning af den
+
+*   30px lineheight  i alle
+
+*   Den aktive side skal underlines
 
 
 _Lavet af Jakob Kargo Mortensen og Holger Kargo Mortensen._
