@@ -20,7 +20,5 @@ To-do liste:
 
 *   30px lineheight  i alle
 
-*   Den aktive side skal underlines
-
 
 _Lavet af Jakob Kargo Mortensen og Holger Kargo Mortensen._
