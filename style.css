@@ -469,13 +469,57 @@ img {
     display:flex;
     width: 80%;
     margin: auto;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 .about-text {
     line-height: 30px;
     padding: 30px;
 }
 
+.info-view {
+    display:flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+.contact-field {
+    padding: 30px;
+    line-height: 25px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.explanation-text {
+    padding: 30px;
+    line-height: 25px;
+}
+
+.explanation-text h1 {
+    font-size: 22px;
+}
+.explanation-text p {
+    font-size: 14px;
+}
+
+.copyright {
+    width: 40%;
+    padding: 30px;
+    font-size: 14px;
+    text-align: right;
+}
+
+
+.line-1, .line-2 {
+    width: 76%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+}
+
+.line-2 {
+    margin-bottom: 10vh;
+}
 
 /* Responsive layout */
 
