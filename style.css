@@ -406,6 +406,7 @@ img {
 .costumer-quotes-bottom {
     margin-top: 15px;
     display: flex;
+    margin-bottom: 5vh;
 }
 
 .quote-1, .quote-2, .quote-3, .quote-4{
@@ -423,7 +424,8 @@ img {
     width: 80%;
     margin: auto;
     margin-top: 8vh;
-    min-height: 65vh;
+    margin-bottom: 0;
+    min-height: 55vh;
 }
 
 .contact-text {
@@ -469,43 +471,45 @@ img {
     display:flex;
     width: 80%;
     margin: auto;
+    margin-top: 0;
     margin-bottom: 5vh;
 }
 .about-text {
     line-height: 30px;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 0;
 }
 
 .info-view {
     display:flex;
     width: 80%;
     margin: auto;
-
-}
-
-.contact-field {
-    padding: 30px;
-    line-height: 25px;
-    text-align: left;
-    font-size: 14px;
 }
 
 .explanation-text {
     padding: 30px;
     line-height: 25px;
+    flex: 1;
 }
 
-.explanation-text h1 {
-    font-size: 22px;
-}
 .explanation-text p {
     font-size: 14px;
 }
 
+.contact-field {
+    padding: 30px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    flex: 1;
+}
+
 .copyright {
-    width: 40%;
     padding: 30px;
     font-size: 14px;
+    flex: 1;
     text-align: right;
 }
 
@@ -514,7 +518,7 @@ img {
     width: 76%;
     margin-right: auto;
     margin-left: auto;
-    border: 1px solid black;
+    border: 0.5px solid black;
 }
 
 .line-2 {
@@ -535,6 +539,7 @@ img {
     }
     .circles {
         flex-direction: column;
+        margin-bottom: 10vh;
     }
     .circle-1, .circle-2, .circle-3, .circle-4 {
         margin-top: 3vh;
@@ -654,4 +659,11 @@ img {
         margin-bottom: 5vh;
     }
 
+    .info-view {
+        flex-direction: column;
+    }
+
+    .explanation-text, .copyright, .contact-field {
+        text-align: center;
+    }
 }
