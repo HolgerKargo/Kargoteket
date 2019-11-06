@@ -246,7 +246,7 @@ a {
     text-align: center;
 }
 
-/* .circle-4 {
+.circle-4 {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -259,9 +259,9 @@ a {
     cursor: pointer;
     font-size: 17px;
     text-align: center;
-} */
+}
 
-.circle-1:hover, .circle-2:hover, .circle-3:hover /*.circle-4:hover*/ {
+.circle-1:hover, .circle-2:hover, .circle-3:hover, .circle-4:hover {
     opacity: 1;
 }
 
@@ -449,6 +449,7 @@ img {
     flex: 1;
     margin: auto;
     align-content: center;
+
 }
 
 .profilepic-image {
@@ -667,3 +668,37 @@ img {
         text-align: center;
     }
 }
+
+/* all-else.html responsive */
+
+.heading {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.dkbs-content {
+    display: flex;
+    margin: auto;
+    border-radius: 0%;
+    cursor: pointer;
+    width: 80%;
+}
+
+.buket-image {
+    object-fit: cover;
+    border-radius: 0%;
+    width: 45vh;
+    height: 55vh;
+    cursor: pointer;
+}
+
+.dkbs-text {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 35px;
+    line-height: 18pt;
+}
+
+
+
