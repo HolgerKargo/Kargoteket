@@ -674,7 +674,12 @@ img {
 .heading {
     text-align: center;
     padding: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+}
+.all-else-explanation {
+    text-align: center;
+    padding-bottom: 80px;
+    line-height: 20pt;
 }
 
 .dkbs-content {
@@ -682,14 +687,14 @@ img {
     margin: auto;
     border-radius: 0%;
     cursor: pointer;
-    width: 80%;
+    width: 70%;
 }
 
 .buket-image {
     object-fit: cover;
     border-radius: 0%;
-    width: 45vh;
-    height: 55vh;
+    width: 35vh;
+    height: 45vh;
     cursor: pointer;
 }
 
