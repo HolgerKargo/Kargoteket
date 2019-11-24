@@ -71,6 +71,15 @@ header {
     display: none;
 }
 
+.burgermenu {
+    width: 21px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 .nav-toggled-links-container {
     position: absolute;
     top: 10vh;
@@ -193,6 +202,7 @@ header {
 
 .circle-container {
     flex: 1;
+    display: flex;
 }
 
 a {
@@ -375,6 +385,28 @@ img {
 
 
 /* what.html */
+
+.powerpointdiv {
+    display: flex;
+    align-items: center; 
+}
+
+.what-img {
+    object-fit: cover;
+    display: flex;
+    width: 20vh;
+    height: 20vh;
+    margin: auto;
+    margin-left: 2vh;
+    /* margin-top: 7vh; */
+    align-items: center;
+    flex: 1;
+}
+
+what-img-text {
+    flex: 3;
+}
+
 
 .what-content {
     display: flex;
@@ -625,6 +657,11 @@ img {
 
 
     /* what.html responsive */
+
+    .what-img {
+        flex-direction: column;
+        margin-top: 5vh;
+    }
 
     .quote-headline {
         text-align: left;
