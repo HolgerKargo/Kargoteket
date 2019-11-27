@@ -753,7 +753,7 @@ img {
         width: 35vh;
         background-color: #F9F9F9;
         padding: 3vh;
-        height: 35vh;
+        height: auto;
     }
 
     .all-else-explanation {
