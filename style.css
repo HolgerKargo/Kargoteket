@@ -558,6 +558,48 @@ img {
     margin-bottom: 10vh;
 }
 
+
+/* all-else.html */
+
+.heading {
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+.all-else-explanation {
+    margin-top: vh;
+    margin: auto;
+    text-align: center;
+    line-height: 20pt;
+    width: 40%;
+}
+
+.dkbs-content {
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10vh;
+    width: 50%;
+}
+
+.buket-image {
+    object-fit: cover;
+    border-radius: 0%;
+    width: 35vh;
+    height: 45vh;
+    cursor: pointer;
+}
+
+.dkbs-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5vh;
+    line-height: 20pt;
+    width: 70vh;
+    height: 20vh;
+}
+
+
 /* Responsive layout */
 
 @media screen and (max-width: 1200px) {
@@ -591,8 +633,6 @@ img {
         font-size: 18px;
     }
 
-
-
     /* Nav toggle button init */
 
     .nav-links {
@@ -620,7 +660,29 @@ img {
         display: block;
     }
 
-    
+    /* what.html responsive */
+
+    .what-img {
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+
+    .quote-headline {
+        text-align: left;
+    }
+
+    .costumer-quotes-top, .costumer-quotes-bottom {
+        flex-direction: column;
+    }
+
+    .quote-1, .quote-2, .quote-3, .quote-4 {
+        margin: auto;
+        margin-top: 10vh;
+    }
+
+    .quote-4 {
+        margin-bottom: 15vh;
+    }
 
     /* how.html responsive */
 
@@ -654,34 +716,6 @@ img {
         width: 100%;
     }
 
-
-
-    /* what.html responsive */
-
-    .what-img {
-        flex-direction: column;
-        margin-top: 5vh;
-    }
-
-    .quote-headline {
-        text-align: left;
-    }
-
-    .costumer-quotes-top, .costumer-quotes-bottom {
-        flex-direction: column;
-    }
-
-    .quote-1, .quote-2, .quote-3, .quote-4 {
-        margin: auto;
-        margin-top: 10vh;
-    }
-
-    .quote-4 {
-        margin-bottom: 15vh;
-    }
-
-
-
     /* who.html responsive */
 
     .contact-screen {
@@ -704,43 +738,29 @@ img {
     .explanation-text, .copyright, .contact-field {
         text-align: center;
     }
+
+    /* all_else responsive */
+
+    .dkbs-content {
+        flex-direction: column;
+        margin-bottom: 10vh;
+    }
+    
+    .dkbs-text {
+        margin-top: 0;
+        text-align: center;
+        margin-left: 0;
+        width: 35vh;
+        background-color: #F9F9F9;
+        padding: 3vh;
+        height: 35vh;
+    }
+
+    .all-else-explanation {
+        margin-top: 5vh;
+        text-align: center;
+        line-height: 20pt;
+        width: 80%;
+    }
 }
-
-/* all-else.html responsive */
-
-.heading {
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 70px;
-}
-.all-else-explanation {
-    text-align: center;
-    padding-bottom: 80px;
-    line-height: 20pt;
-}
-
-.dkbs-content {
-    display: flex;
-    margin: auto;
-    border-radius: 0%;
-    cursor: pointer;
-    width: 70%;
-}
-
-.buket-image {
-    object-fit: cover;
-    border-radius: 0%;
-    width: 35vh;
-    height: 45vh;
-    cursor: pointer;
-}
-
-.dkbs-text {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 35px;
-    line-height: 18pt;
-}
-
-
 
