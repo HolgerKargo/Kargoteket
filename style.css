@@ -389,6 +389,7 @@ img {
 .powerpointdiv {
     display: flex;
     align-items: center; 
+  
 }
 
 .what-img {
@@ -398,7 +399,6 @@ img {
     height: 20vh;
     margin: auto;
     margin-left: 2vh;
-    /* margin-top: 7vh; */
     align-items: center;
     flex: 1;
 }
@@ -567,18 +567,27 @@ img {
     margin-bottom: 5vh;
 }
 .all-else-explanation {
-    margin-top: vh;
+    display: flex;
     margin: auto;
     text-align: center;
-    line-height: 20pt;
     width: 40%;
+}
+
+.line {
+    display: flex;
+    height: 1px;
+    width: 30%;
+    margin-top: 7.5vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
 }
 
 .dkbs-content {
     align-items: center;
     display: flex;
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 7.5vh;
     width: 50%;
 }
 
@@ -662,6 +671,11 @@ img {
 
     /* what.html responsive */
 
+    .powerpointdiv {
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+
     .what-img {
         flex-direction: column;
         margin-top: 5vh;
@@ -741,8 +755,21 @@ img {
 
     /* all_else responsive */
 
+    .all-else-explanation {
+        margin-top: 5vh;
+        text-align: center;
+        line-height: 20pt;
+        width: 80%;
+    }
+
+    .line {
+        width: 60%;
+        margin-top: 5vh;
+    }
+
     .dkbs-content {
         flex-direction: column;
+        margin-top: 5vh;
         margin-bottom: 10vh;
     }
     
@@ -755,12 +782,6 @@ img {
         padding: 3vh;
         height: auto;
     }
-
-    .all-else-explanation {
-        margin-top: 5vh;
-        text-align: center;
-        line-height: 20pt;
-        width: 80%;
-    }
+   
 }
 
