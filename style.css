@@ -578,6 +578,7 @@ img {
     align-items: center;
     display: flex;
     margin: auto;
+    margin-bottom: 15vh;
     margin-top: 10vh;
     width: 50%;
 }
@@ -743,17 +744,14 @@ img {
 
     .dkbs-content {
         flex-direction: column;
-        margin-bottom: 10vh;
     }
     
     .dkbs-text {
         margin-top: 0;
         text-align: center;
         margin-left: 0;
-        width: 35vh;
-        background-color: #F9F9F9;
         padding: 3vh;
-        height: 35vh;
+        width: 45vh;
     }
 
     .all-else-explanation {
