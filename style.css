@@ -587,12 +587,7 @@ img {
     align-items: center;
     display: flex;
     margin: auto;
-<<<<<<< HEAD
-    margin-bottom: 15vh;
-    margin-top: 10vh;
-=======
     margin-top: 7.5vh;
->>>>>>> 685ab332df476ccf4d80f15d95309477fa01e012
     width: 50%;
 }
 
@@ -774,30 +769,18 @@ img {
 
     .dkbs-content {
         flex-direction: column;
-<<<<<<< HEAD
-=======
         margin-top: 5vh;
         margin-bottom: 10vh;
->>>>>>> 685ab332df476ccf4d80f15d95309477fa01e012
     }
     
     .dkbs-text {
         margin-top: 0;
         text-align: center;
         margin-left: 0;
+        width: 35vh;
+        background-color: #F9F9F9;
         padding: 3vh;
-<<<<<<< HEAD
-        width: 45vh;
-    }
-
-    .all-else-explanation {
-        margin-top: 5vh;
-        text-align: center;
-        line-height: 20pt;
-        width: 80%;
-=======
         height: auto;
->>>>>>> 685ab332df476ccf4d80f15d95309477fa01e012
     }
    
 }
