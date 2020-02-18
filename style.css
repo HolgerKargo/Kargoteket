@@ -196,7 +196,6 @@ header {
     display: flex;
     width: 90%;
     margin: auto;
-    min-height: 40vh;
     align-items: center;
 }
 
@@ -389,7 +388,13 @@ img {
 .powerpointdiv {
     display: flex;
     align-items: center; 
-  
+    margin-top: 7.5vh;
+    margin-bottom: 10vh;
+}
+
+.workshopdiv {
+    display: flex;
+    align-items: center; 
 }
 
 .what-img {
@@ -403,10 +408,20 @@ img {
     flex: 1;
 }
 
+.what-img-2 {
+    object-fit: cover;
+    display: flex;
+    width: 20vh;
+    height: 20vh;
+    margin: auto;
+    margin-right: 10vh;
+    align-items: center;
+    flex: 1;
+}
+
 what-img-text {
     flex: 3;
 }
-
 
 .what-content {
     display: flex;
@@ -421,7 +436,7 @@ what-img-text {
     margin-left: 2.8vh;
 }
 
-.quote-headline-costumers {
+.quote-headline-customers {
     margin-top: 50px;
     margin-bottom: 20px;
     margin-right: 2vh;
@@ -445,7 +460,6 @@ what-img-text {
 
 .quote-1, .quote-2, .quote-3, .quote-4{
     flex: 1;
-    /* margin-top: 30px; */
     margin-bottom: 30px;
     margin-left: 15px;
     margin-right: 15px;
@@ -678,12 +692,26 @@ img {
 
     .powerpointdiv {
         flex-direction: column;
+        margin: auto;
         margin-top: 10vh;
+    }
+
+    .workshopdiv {
+        flex-direction: column;
+        border-top: 1px solid black;
     }
 
     .what-img {
         flex-direction: column;
+        margin: auto;
         margin-top: 5vh;
+    }
+
+    .what-img-2 {
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 10vh;
+        margin-top: 10vh;        
     }
 
     .quote-headline {
