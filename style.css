@@ -20,14 +20,14 @@ p {
 
 /* Navigation Bar */
 
-#navbar {
-    background-color: #F9F9F9;
-    z-index: 10; /* Stacking the navbar highest */
+.nav-wrapper {
+    height: 10vh;
 }
 
-.content {
-  padding: 16px;
-}
+ #navbar {
+    background-color: #F9F9F9;
+    z-index: 10; 
+} 
 
 .sticky {
   position: fixed;
@@ -43,6 +43,10 @@ header {
     align-items: center;
 }
 
+.content {
+    padding: 16px;
+  }
+  
 .logo-container, .nav-links, .contact-container {
     display: flex;
 }
@@ -59,7 +63,7 @@ header {
 .nav-links {
     justify-content: space-around;
     list-style: none;
-}
+} 
 
 /* Nav toggle */
 
