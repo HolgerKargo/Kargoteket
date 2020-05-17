@@ -605,6 +605,23 @@ img {
     background-color: black;
 }
 
+.ArCompas {
+    display: flex;
+    width: 55%;
+    margin: auto;
+    margin-top: 7.5vh;
+}
+
+.compas-text {
+    margin: auto;
+}
+
+.compas-image {
+    object-fit: cover;
+    width: 35vh;
+    height: 35vh;
+}
+
 .dkbs-content {
     align-items: center;
     display: flex;
