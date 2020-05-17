@@ -614,12 +614,15 @@ img {
 
 .compas-text {
     margin: auto;
+    text-align: center;
+    margin-right: 5vh;
 }
 
 .compas-image {
     object-fit: cover;
     width: 35vh;
     height: 35vh;
+    margin: auto;
 }
 
 .dkbs-content {
@@ -818,6 +821,20 @@ img {
 
     .line {
         width: 60%;
+        margin-top: 5vh;
+    }
+
+    .ArCompas {
+        flex-direction: column;
+    }
+
+    .compas-text {
+        margin-left: 0;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .compas-image {
         margin-top: 5vh;
     }
 
