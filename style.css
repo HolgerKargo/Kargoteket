@@ -440,6 +440,41 @@ what-img-text {
     margin-left: 2.8vh;
 }
 
+.text-section-1 {
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.text-section-2 {
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-left: 2.8vh;
+    
+}
+
+.DDS-img-1 {
+    object-fit: cover;
+    display: flex;
+    width: 20vh;
+    height: 20vh;
+    margin: auto;
+    margin-right: 4vh;
+    align-items: center;
+    flex: 1;
+}
+
+.DDS-img-2 {
+    object-fit: cover;
+    display: flex;
+    width: 20vh;
+    height: 20vh;
+    margin: auto;
+    margin-right: 10vh;
+    align-items: center;
+    flex: 1;
+}
+
 .quote-headline-customers {
     margin-top: 50px;
     margin-bottom: 20px;
@@ -448,8 +483,7 @@ what-img-text {
 }
 
 .quote-headline p {
-    margin-top: 20px;
-
+    margin-top: 40px;
 }
 
 
