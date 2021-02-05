@@ -389,50 +389,12 @@ img {
 
 /* what.html */
 
-.powerpointdiv {
-    display: flex;
-    align-items: center; 
-    margin-top: 7.5vh;
-    margin-bottom: 10vh;
-}
-
-.workshopdiv {
-    display: flex;
-    align-items: center; 
-}
-
-.what-img {
-    object-fit: cover;
-    display: flex;
-    width: 20vh;
-    height: 20vh;
-    margin: auto;
-    margin-left: 2vh;
-    align-items: center;
-    flex: 1;
-}
-
-.what-img-2 {
-    object-fit: cover;
-    display: flex;
-    width: 20vh;
-    height: 20vh;
-    margin: auto;
-    margin-right: 10vh;
-    align-items: center;
-    flex: 1;
-}
-
-what-img-text {
-    flex: 3;
-}
-
 .what-content {
     display: flex;
     width: 80%;
     margin: auto;
     margin-top: 15vh;
-    min-height: 60vh;
+    min-height: 55vh;
     flex-direction: column;
 }
 
@@ -440,17 +402,18 @@ what-img-text {
     margin-left: 2.8vh;
 }
 
+.quote-headline p {
+    margin-top: 40px;
+}
+
 .text-section-1 {
+    display: flex;
     margin: auto;
     margin-top: 10vh;
 }
 
-.text-section-2 {
-    margin: auto;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
-    margin-left: 2.8vh;
-    
+.img-wrap {
+    display: flex;
 }
 
 .DDS-img-1 {
@@ -475,6 +438,62 @@ what-img-text {
     flex: 1;
 }
 
+.text-1 {
+    margin: auto;
+}
+
+.wrap-section-2 {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+.text-section-2 {
+    margin-left: 2.8vh;
+    margin-bottom: 2vh;
+}
+
+.powerpointdiv {
+    display: flex;
+    align-items: center; 
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 12.5vh;
+    width: 80%;
+}
+
+what-img-text {
+    flex: 3;
+}
+
+.what-img {
+    object-fit: cover;
+    display: flex;
+    width: 20vh;
+    height: 20vh;
+    margin: auto;
+    margin-left: 2vh;
+    align-items: center;
+    flex: 1;
+}
+
+.workshopdiv {
+    display: flex;
+    align-items: center; 
+}
+
+.what-img-2 {
+    object-fit: cover;
+    display: flex;
+    width: 20vh;
+    height: 20vh;
+    margin: auto;
+    margin-right: 10vh;
+    align-items: center;
+    flex: 1;
+}
+
 .quote-headline-customers {
     margin-top: 50px;
     margin-bottom: 20px;
@@ -482,16 +501,9 @@ what-img-text {
     text-align: end;
 }
 
-.quote-headline p {
-    margin-top: 40px;
-}
-
-
 .customer-quotes-bottom {
     display: flex;
 }
-
-
 
 .quote-1, .quote-2, .quote-3, .quote-4{
     flex: 1;
@@ -746,6 +758,50 @@ img {
 
     /* what.html responsive */
 
+    .what-content {
+        flex-direction: column;
+    }
+    
+    .quote-headline {
+        flex-direction: column;
+    }
+    
+    .quote-headline p {
+        flex-direction: column;
+    }
+    
+    .text-section-1 {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .img-wrap {
+        flex-direction: column;
+        margin: auto;
+        margin-top: 7.5vh;
+        margin-bottom: 7.5vh;
+    }
+    
+    .DDS-img-1 {
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .DDS-img-2 {
+        flex-direction: column;
+        margin: auto;
+        margin-top: 5vh;
+    }
+    
+    .text-1 {
+    } 
+    
+     .wrap-section-2 {
+    } 
+    
+     .text-section-2 {
+    }
+
     .powerpointdiv {
         flex-direction: column;
         margin: auto;
@@ -886,4 +942,3 @@ img {
     }
    
 }
-
