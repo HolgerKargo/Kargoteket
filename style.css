@@ -651,14 +651,32 @@ img {
     background-color: black;
 }
 
-.big-text-segment {
+.long-text-segment {
     width: 80%;
     margin: auto;
     margin-top: 7.5vh;
+    
 } 
 
+.long-text-segment-divide {
+    display: flex;
+}
+
+.circle-container {
+    flex: 1;
+    display: flex;
+
+}
+
+.place-img {
+    margin: auto;
+    width: 20vh;
+    height: 20vh;
+}
+
 .segment-header {
-    padding: 2vh;    
+    padding: 2vh;   
+    margin: auto; 
 }
 
 .collapsible {
@@ -819,13 +837,8 @@ img {
         margin-top: 5vh;
     }
     
-    .text-1 {
-       
-    } 
-    
      .wrap-section-2 {
-         width: 90%;
-         
+         width: 90%;    
     } 
     
      .text-section-2 {
@@ -944,6 +957,17 @@ img {
     .line {
         width: 60%;
         margin-top: 5vh;
+    }
+
+    .long-text-segment-divide {
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
+    }
+
+    .button-wrap {
+        width: 80%;
+        margin: auto;
     }
 
     .ArCompas {
