@@ -968,6 +968,7 @@ img {
     .button-wrap {
         width: 80%;
         margin: auto;
+        display: flex;
     }
 
     .ArCompas {
