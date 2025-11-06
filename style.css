@@ -440,6 +440,7 @@ img {
 
 .text-1 {
     margin: auto;
+    width: 70%;
 }
 
 .wrap-section-2 {
@@ -450,15 +451,15 @@ img {
 
 .text-section-2 {
     margin: auto;
+    margin-top: 12vh;
     width: 80%;
-
 }
 
 .powerpointdiv {
     display: flex;
     align-items: center; 
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 12vh;
     margin-bottom: 12.5vh;
     width: 80%;
 }
@@ -812,11 +813,19 @@ img {
     
     .quote-headline p {
         flex-direction: column;
+        margin-bottom: 7.5vh;
     }
     
     .text-section-1 {
         flex-direction: column;
         margin: auto;
+        border-top: 1px solid black;
+    }
+
+    .text-1 {
+        margin: auto;
+        margin-top: 5vh;
+        width: 80%;
     }
 
     .img-wrap {
